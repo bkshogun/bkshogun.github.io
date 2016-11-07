@@ -6,14 +6,40 @@
 <body>
 
 <h1>Welcome to the Shogun Travel Agency!</h1>
-<em>Where you're the dictator ;)</em>
+<h3>Where <em>you're</em> the dictator ;)</h3>
 
 <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSJK4JKfU0KuIRO8Qhh4EIno7skYe8OPeS9Hny8zRkbsdoUeF_sBg" alt="World Map" style="width:304px;height:228px;">
 
+<form>
+
 <p>Where would you like to go?</p>
+<select name="destination">
+	<option value="Norway">Norway</option>
+	<option value="New Zealand">New Zealand</option>
+	<option value="Brazil">Brazil</option>
+	<option value="Vietnam">Vietnam</option>
+	<option value="India">India</option>
+</select>
 <p>What is your daily budget?</p>
+	<input list="budget" name="budget">
+		<datalist id="budget">
+			<option value=">$14">
+			<option value="$15-24">
+			<option value="$25-$49">
+			<option value="$50+">
+		</datalist>
+
 <p>What activities are you interested in?</p>
+	<input type="checkbox" name="activities" value="wingsuit">Wingsuit Flying
+	<input type="checkbox" name="activities" value="bungee">Bungee Jumping
+	<input type="checkbox" name="activities" value="surf">Surfing
+	<input type="checkbox" name="activities" value="SCUBA">SCUBA
+	<input type="checkbox" name="activities" value="Tan">Get a tan
+
 <p>Do you any comments or concerns we should know about?</p>
+	<textarea rows="5" cols="50" name="comments"></textarea>
+
+</form>
 
 </body>
 </html>
