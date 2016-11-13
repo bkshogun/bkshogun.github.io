@@ -1,6 +1,16 @@
+
+body {     
+	background-image: url("http://www.hddesktopbackgrounds.us/backgrounds-images/1920x1080/b48ti-wallpapers-091421358-1920x1080.jpg")
+}
+
+h1 {
+	color: white;
+}
+
 blockquote {
   border-left: 5px solid blue;
   border-right: 5px solid blue;
   padding: 15px;
   margin-left: 0px;
 }
+
