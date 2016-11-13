@@ -5,9 +5,35 @@ body {
 
 h1 {
 	color: white;
+	text-align: center;
+	text-shadow: 3px 3px black;
+}
+
+h3 {
+	color: white;
+	text-align: center;
+	text-shadow: 2px 2px black;
+}
+
+div {
+	padding: 5px;
+}
+
+#destination {
+	display: inline-table;
+}
+
+#budget {
+	border: 2px solid red;
+	display: inline-table;
+}
+
+#activities {
+	display: inline-table;
 }
 
 blockquote {
+  background-color: lightgrey;
   border-left: 5px solid blue;
   border-right: 5px solid blue;
   padding: 15px;
