@@ -8,11 +8,10 @@
 
 <h1>Welcome to the Shogun Travel Agency!</h1>
 <h3>Where <em>you're</em> the dictator*</h3>
-<h5><em>*Disclaimer:</em> A shogun was a military dictator in feudal Japan. By utilizing Shogun Global Adventures, you will likely not become an actual shogun</h5>
 
 <form action="http://www.innovationhighschool.org/wp-content/uploads/2015/07/Thank-you-parents.jpg" method="get">
 
-<p>Where would you like to go?</p>
+<div id="destination">Where would you like to go?<br>
 <select name="destination">
 	<option value="Norway">Norway</option>
 	<option value="New Zealand">New Zealand</option>
@@ -20,7 +19,9 @@
 	<option value="Vietnam">Vietnam</option>
 	<option value="India">India</option>
 </select>
-<p>What is your daily budget?</p>
+</div><br>
+
+<div id=budget>What is your daily budget?<br>
 	<input list="budget" name="budget">
 		<datalist id="budget">
 			<option value=">$14">
@@ -28,23 +29,26 @@
 			<option value="$25-$49">
 			<option value="$50+">
 		</datalist>
+</div><br>
 
-<p>What activities are you interested in?</p>
-	<input type="checkbox" name="activities" value="wingsuit">Wingsuit Flying
-	<input type="checkbox" name="activities" value="bungee">Bungee Jumping
-	<input type="checkbox" name="activities" value="surf">Surfing
-	<input type="checkbox" name="activities" value="SCUBA">SCUBA
-	<input type="checkbox" name="activities" value="Tan">Get a tan
-<br>What is <a href="http://adventure.howstuffworks.com/wingsuit-flying.htm">wingsuit flying</a>?
+<div id="activities">What activities are you interested in?<br>
+	<input type="checkbox" name="activities" value="wingsuit">Wingsuit Flying<br>
+	<input type="checkbox" name="activities" value="bungee">Bungee Jumping<br>
+	<input type="checkbox" name="activities" value="surf">Surfing<br>
+	<input type="checkbox" name="activities" value="SCUBA">SCUBA<br>
+	<input type="checkbox" name="activities" value="Tan">Get a tan<br>
+</div>
+<br>What is <a href="http://adventure.howstuffworks.com/wingsuit-flying.htm">wingsuit flying</a>
 
-<p>Do you have any comments or concerns we should know about?</p>
+<br><br><div id="concerns">Do you have any comments or concerns we should know about?<br>
 	<textarea rows="5" cols="50" name="comments"></textarea>
+</div>	
 
 <br><input type="submit" value="Submit">
 
 </form>
 
-<br>Why choose Shogun International Adventures? We are:
+<br><div id="whychoose">Why choose Shogun International Adventures? We are:
 <ul>
 	<li>Fearless</li>
 	<li>Handsome</li>
@@ -52,13 +56,16 @@
 	<li>Not committed to one name!</li>
 	<li>Also not a real company... yet</li>
 </ul>
+</div>
 
-<a href="about.html">About us</a>
+<a href="about.html">About us</a><br><br>
+
+<footer><em>*Disclaimer: A shogunate was a military dictatorship in feudal Japan. By utilizing Shogun Global Adventures, you will likely not become an actual shogun</em></footer>
 
 <br><br><br>
 <blockquote>
 A similar site I've used in the past is <a href="http://wwww.kiwi.com"> kiwi.com</a>. The source code seems to be only 11 lines long, but fairly complex. Would this make the code difficult to debug? The site is unique since it lets users define search radii using an interactive map and filter flight results based on duration, price, etc. It doesn't do <em> exactly </em> what the Shogun does, but has useful elements. Much of the code is familiar, there are 'data-reactid' tags, which I would guess gives instant feedback to the user depending on input, and a massive block of random letters/numbers of code that has to do with the mapping utility.
-</blockquote><br><br><br>
+</blockquote>
 
 </body>
 </html>
