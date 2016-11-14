@@ -4,6 +4,11 @@
 	<title>Shogun Global Adventures</title>
 	<link rel="stylesheet" type="text/css" href="styles.css">
 </head>
+<style>
+	a:visited {
+		color: green;
+	}
+</style>
 <body>
 
 <h1>Welcome to the Shogun Travel Agency!</h1>
@@ -11,7 +16,7 @@
 
 <form action="http://www.innovationhighschool.org/wp-content/uploads/2015/07/Thank-you-parents.jpg" method="get">
 
-<div id="destination"><b>Where would you like to go?</b><br>
+<div class="destination"><b>Where would you like to go?</b><br>
 	<select name="destination">
 		<option value="Norway">Norway</option>
 		<option value="New Zealand">New Zealand</option>
@@ -37,10 +42,11 @@
 	<input type="checkbox" name="activities" value="SCUBA">SCUBA<br>
 	<input type="checkbox" name="activities" value="Tan">Get a tan<br>
 </div>
+
 <br><em>What is <a href="http://adventure.howstuffworks.com/wingsuit-flying.htm">wingsuit flying?</em></a>
 
 <br><br><div id="concerns"><b>Do you have any comments or concerns we should know about?</b><br>
-	<textarea rows="5" cols="50" name="comments"></textarea>
+	<textarea rows="5" cols="45" name="comments"></textarea>
 </div>	
 
 <br><input type="submit" value="Submit">
@@ -63,7 +69,7 @@
 
 <br><br><br>
 <blockquote>
-A similar site I've used in the past is <a href="http://wwww.kiwi.com"> kiwi.com</a>. The source code seems to be only 11 lines long, but fairly complex. Would this make the code difficult to debug? The site is unique since it lets users define search radii using an interactive map and filter flight results based on duration, price, etc. It doesn't do <em> exactly </em> what the Shogun does, but has useful elements. Much of the code is familiar, there are 'data-reactid' tags, which I would guess gives instant feedback to the user depending on input, and a massive block of random letters/numbers of code that has to do with the mapping utility.
+A similar site I've used in the past is <a href="https://www.kiwi.com"> kiwi.com</a>. The source code seems to be only 11 lines long, but fairly complex. Would this make the code difficult to debug? The site is unique since it lets users define search radii using an interactive map and filter flight results based on duration, price, etc. It doesn't do <em> exactly </em> what the Shogun does, but has useful elements. Much of the code is familiar, there are 'data-reactid' tags, which I would guess gives instant feedback to the user depending on input, and a massive block of random letters/numbers of code that has to do with the mapping utility.
 </blockquote>
 
 </body>
