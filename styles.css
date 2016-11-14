@@ -4,12 +4,14 @@ body {
 }
 
 h1 {
+	border: 1px solid red;
 	color: white;
 	text-align: center;
 	text-shadow: 3px 3px black;
 }
 
 h3 {
+	border: 1px solid red;
 	color: white;
 	text-align: center;
 	text-shadow: 2px 2px black;
@@ -19,19 +21,6 @@ div {
 	padding: 5px;
 }
 
-#destination {
-	display: inline-table;
-}
-
-#budget {
-	border: 2px solid red;
-	display: inline-table;
-}
-
-#activities {
-	display: inline-table;
-}
-
 blockquote {
   background-color: lightgrey;
   border-left: 5px solid blue;
@@ -39,4 +28,34 @@ blockquote {
   padding: 15px;
   margin-left: 0px;
 }
+
+@media screen and (min-width: 845px) {
+#destination {
+	border: 1px solid red;
+	margin-left: 50px;
+	width: 200px;
+	display: block;
+	float: left;
+}
+
+#budget {
+	border: 1px solid red;
+	margin-right: 50px;
+	width: 200px;
+	display: block;
+	float: right;
+}
+
+#activities {
+	border: 1px solid red;
+	margin: auto;
+	width: 300px;
+	display: block;
+}
+}
+
+
+
+
+
 
